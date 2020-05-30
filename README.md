@@ -33,3 +33,10 @@ Things you may want to cover:
 副詞
 ①大変。非常に。▽程度がはなはだしい。
 
+
+userテーブル
+|Column|Type|Options|
+|------|----|-------|
+|nickname|string|null:false|
+|email|string|null:false, unique:true|
+|password|string|null:false, unique:true|
