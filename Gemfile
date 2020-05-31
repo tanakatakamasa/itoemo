@@ -70,3 +70,8 @@ gem 'devise'
 
 # ページネーション用
 gem 'kaminari'
+
+# サーバー用
+group :production do
+  gem 'unicorn', '5.4.1'
+end
