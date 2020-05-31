@@ -34,6 +34,7 @@ Things you may want to cover:
 ①大変。非常に。▽程度がはなはだしい。
 
 
+DB設計
 tweetテーブル
 |Column|Type|Options|
 |------|----|-------|
@@ -44,6 +45,7 @@ tweetテーブル
 Association
 belongs_to :user
 has_many :comments
+
 
 commentテーブル
 |Column|Type|Options|
