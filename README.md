@@ -34,9 +34,35 @@ Things you may want to cover:
 ①大変。非常に。▽程度がはなはだしい。
 
 
+tweetテーブル
+|Column|Type|Options|
+|------|----|-------|
+|text|string|-------|
+|image|text|-------|
+
+Association
+belongs_to :user
+has_many :comments
+
+commentテーブル
+|Column|Type|Options|
+|------|----|-------|
+|user_id|integer|-------|
+|tweet_id|integer|-------|
+|text|text|-------|
+
+Association
+belongs_to :tweet
+belongs_to :user
+
+
 userテーブル
 |Column|Type|Options|
 |------|----|-------|
 |nickname|string|null:false|
 |email|string|null:false, unique:true|
 |password|string|null:false, unique:true|
+
+Association
+has_many :tweets
+has_many :comments
