@@ -39,6 +39,7 @@ tweetテーブル
 |------|----|-------|
 |text|string|-------|
 |image|text|-------|
+|user_id|integer|null: false, foreign_key: true|
 
 Association
 belongs_to :user
@@ -47,9 +48,9 @@ has_many :comments
 commentテーブル
 |Column|Type|Options|
 |------|----|-------|
-|user_id|integer|-------|
-|tweet_id|integer|-------|
-|text|text|-------|
+|user_id|integer|null: false, foreign_key: true|
+|tweet_id|integer|null: false, foreign_key: true|
+|text|text|null: false|
 
 Association
 belongs_to :tweet
@@ -60,8 +61,8 @@ userテーブル
 |Column|Type|Options|
 |------|----|-------|
 |nickname|string|null:false|
-|email|string|null:false, unique:true|
-|password|string|null:false, unique:true|
+|email|string|null:false|
+|password|string|null:false|
 
 Association
 has_many :tweets
