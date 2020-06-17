@@ -1,15 +1,5 @@
 @import "compass";
 
-
-@font-face {
-    font-family: 'ほのか明朝';
-    src: url('font_1_honokamin.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@import url(http://fonts.googleapis.com/css?family=Unica+One);
-
 $accent: #57C3E9;
 $black: #292929;
 $dark: #666;
@@ -46,7 +36,6 @@ line-height: 1.57;
   letter-spacing: 0.15em;
   font-size: 16px;
   color: $dark;
-  font-family: 'Unica One', "Avenir", "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro W6", "HIragino Kaku Gothic Pro W6", "HIragino Kaku Gothic Pro", Osaka, Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
   margin: 0;
 }
 
@@ -61,10 +50,6 @@ a {
 
 .bold {
   font-weight: bold;
-}
-
-.serif {
-  font-family: 'ほのか明朝',serif;
 }
 
 .ultra {
@@ -115,7 +100,7 @@ h1,h2,h3,h4,h5,h6 {
 
 header.header {
   @include basePadding;
-  border-bottom: 1px solid $gray;
+  border-bottom: 7px solid $gray;
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -215,9 +200,6 @@ div.contents.row {
       font-size: 1.2em;
     }
   }
-  .new_user{
-  font-family: "游ゴシック", "YuGothic";
-  }
   div.content_post {
     @include boxBase(20px 0 ,30px);
     position: relative;
@@ -279,13 +261,12 @@ div.contents.row {
       }
     }
     p {
-      @extend .serif;
       position: absolute;
       left: 30px;
       right: 100px;
       bottom: 30px;
       margin: 0;
-      font-size: 20px;
+      font-size: 14px;
       z-index: 2;
       font-weight: bold;
       text-shadow: 0 0 2px #000, 0 0 1px #000, 0 0 1px #000;
@@ -334,7 +315,6 @@ form {
     @include boxBase(5px 0 15px,10px);
     border: 1px solid $gray;
     border-radius: 5px;
-    font-family: "游ゴシック", "YuGothic";
   }
   input[type="submit"] {
     @extend .transition;
