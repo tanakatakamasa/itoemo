@@ -30,7 +30,7 @@
 * E-mail  73.tanaka.takamasa@gmail.com
 
 
-DB設計
+# DB設計
 tweetテーブル
 |Column|Type|Options|
 |------|----|-------|
