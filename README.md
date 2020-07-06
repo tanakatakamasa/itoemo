@@ -5,7 +5,7 @@
 # DEMO
  
  https://i.gyazo.com/bca0227b7986d6a9a97f5e9ba4ea2925.jpg
- 
+ [Pyxel](https://i.gyazo.com/bca0227b7986d6a9a97f5e9ba4ea2925.jpg) is a retro game engine for Python.
 # Features
  
 * 会員登録をしなくても画像などを見るだけならできます、
