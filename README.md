@@ -4,7 +4,9 @@
  
 # DEMO
  
-https://user-images.githubusercontent.com/62592199/86585640-bd13b480-bfc1-11ea-8c2d-969a410b329d.png# Features
+https://user-images.githubusercontent.com/62592199/86585640-bd13b480-bfc1-11ea-8c2d-969a410b329d.png
+
+# Features
  
 * 会員登録をしなくても画像などを見るだけならできます、
 * 会員登録をすると画像の投稿とマイページ閲覧ができるようになります、
