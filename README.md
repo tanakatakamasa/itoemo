@@ -4,7 +4,7 @@
  
 # DEMO
  
-https://user-images.githubusercontent.com/62592199/86585640-bd13b480-bfc1-11ea-8c2d-969a410b329d.png
+![suteru fav](https://user-images.githubusercontent.com/62592199/86585640-bd13b480-bfc1-11ea-8c2d-969a410b329d.png)
 
 # Features
  
